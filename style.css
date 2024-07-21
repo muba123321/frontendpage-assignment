@@ -1,0 +1,115 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 10;
+  padding: 0;
+  background-color: #d7d7d7;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.mainContent {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 120px;
+}
+
+.sectionMainBody {
+  background-color: #fff;
+  margin-right: 20px;
+  padding: 20px;
+  width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+hr.dash {
+  border: 1px dashed;
+  margin: 0px;
+  padding: 0px;
+}
+
+hr.bold {
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid;
+}
+
+.ecard {
+  margin-bottom: 20px;
+}
+
+aside {
+  background-color: #fff;
+  padding: 20px;
+  width: fit-content;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  top: 0px;
+}
+
+.bigWork {
+  margin-top: 50px;
+}
+
+.archive {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.asideimages {
+  display: block;
+  margin-bottom: 20px;
+}
+
+#asideImageParents {
+  padding-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 5px;
+}
+
+li {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h3 {
+  margin: 0px;
+}
+
+b,
+span {
+  color: red;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 900;
+  color: red;
+}
+
+p {
+  font-weight: 500;
+  line-height: 25px;
+}
